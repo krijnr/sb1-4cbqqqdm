@@ -9,16 +9,16 @@ const router = createRouter({
       name: 'home',
       component: Home
     },
-    {
+   /* {
       path: '/messaging',
       name: 'messaging',
       component: () => import('../views/Messaging.vue')
-    },
+    },*/
     {
       path: '/directory',
       name: 'directory',
       component: () => import('../views/Directory.vue')
-    },
+    }/*,
     {
       path: '/reimbursement',
       name: 'reimbursement',
@@ -33,7 +33,7 @@ const router = createRouter({
       path: '/calendar',
       name: 'calendar',
       component: () => import('../views/Calendar.vue')
-    }
+    }*/
   ]
 })
 
